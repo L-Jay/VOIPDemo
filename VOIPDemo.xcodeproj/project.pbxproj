@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E18E94CC26C3712700AD4E4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18E94CB26C3712700AD4E4C /* AppDelegate.swift */; };
+		E18E94CE26C3712700AD4E4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18E94CD26C3712700AD4E4C /* SceneDelegate.swift */; };
+		E18E94D026C3712700AD4E4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18E94CF26C3712700AD4E4C /* ViewController.swift */; };
+		E18E94D326C3712700AD4E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18E94D126C3712700AD4E4C /* Main.storyboard */; };
+		E18E94D526C3712F00AD4E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18E94D426C3712F00AD4E4C /* Assets.xcassets */; };
+		E18E94D826C3712F00AD4E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E18E94D626C3712F00AD4E4C /* LaunchScreen.storyboard */; };
+		E18E94E326C3712F00AD4E4C /* VOIPDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18E94E226C3712F00AD4E4C /* VOIPDemoTests.swift */; };
+		E18E94EE26C3712F00AD4E4C /* VOIPDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18E94ED26C3712F00AD4E4C /* VOIPDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E18E94DF26C3712F00AD4E4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E18E94C026C3712700AD4E4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E18E94C726C3712700AD4E4C;
+			remoteInfo = VOIPDemo;
+		};
+		E18E94EA26C3712F00AD4E4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E18E94C026C3712700AD4E4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E18E94C726C3712700AD4E4C;
+			remoteInfo = VOIPDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E18E94C826C3712700AD4E4C /* VOIPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOIPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18E94CB26C3712700AD4E4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E18E94CD26C3712700AD4E4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E18E94CF26C3712700AD4E4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E18E94D226C3712700AD4E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E18E94D426C3712F00AD4E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E18E94D726C3712F00AD4E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E18E94D926C3712F00AD4E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18E94DE26C3712F00AD4E4C /* VOIPDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOIPDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18E94E226C3712F00AD4E4C /* VOIPDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VOIPDemoTests.swift; sourceTree = "<group>"; };
+		E18E94E426C3712F00AD4E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18E94E926C3712F00AD4E4C /* VOIPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOIPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18E94ED26C3712F00AD4E4C /* VOIPDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VOIPDemoUITests.swift; sourceTree = "<group>"; };
+		E18E94EF26C3712F00AD4E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E18E94C526C3712700AD4E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18E94DB26C3712F00AD4E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18E94E626C3712F00AD4E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E18E94BF26C3712700AD4E4C = {
+			isa = PBXGroup;
+			children = (
+				E18E94CA26C3712700AD4E4C /* VOIPDemo */,
+				E18E94E126C3712F00AD4E4C /* VOIPDemoTests */,
+				E18E94EC26C3712F00AD4E4C /* VOIPDemoUITests */,
+				E18E94C926C3712700AD4E4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E18E94C926C3712700AD4E4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E18E94C826C3712700AD4E4C /* VOIPDemo.app */,
+				E18E94DE26C3712F00AD4E4C /* VOIPDemoTests.xctest */,
+				E18E94E926C3712F00AD4E4C /* VOIPDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E18E94CA26C3712700AD4E4C /* VOIPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E18E94CB26C3712700AD4E4C /* AppDelegate.swift */,
+				E18E94CD26C3712700AD4E4C /* SceneDelegate.swift */,
+				E18E94CF26C3712700AD4E4C /* ViewController.swift */,
+				E18E94D126C3712700AD4E4C /* Main.storyboard */,
+				E18E94D426C3712F00AD4E4C /* Assets.xcassets */,
+				E18E94D626C3712F00AD4E4C /* LaunchScreen.storyboard */,
+				E18E94D926C3712F00AD4E4C /* Info.plist */,
+			);
+			path = VOIPDemo;
+			sourceTree = "<group>";
+		};
+		E18E94E126C3712F00AD4E4C /* VOIPDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E18E94E226C3712F00AD4E4C /* VOIPDemoTests.swift */,
+				E18E94E426C3712F00AD4E4C /* Info.plist */,
+			);
+			path = VOIPDemoTests;
+			sourceTree = "<group>";
+		};
+		E18E94EC26C3712F00AD4E4C /* VOIPDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E18E94ED26C3712F00AD4E4C /* VOIPDemoUITests.swift */,
+				E18E94EF26C3712F00AD4E4C /* Info.plist */,
+			);
+			path = VOIPDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E18E94C726C3712700AD4E4C /* VOIPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E18E94F226C3712F00AD4E4C /* Build configuration list for PBXNativeTarget "VOIPDemo" */;
+			buildPhases = (
+				E18E94C426C3712700AD4E4C /* Sources */,
+				E18E94C526C3712700AD4E4C /* Frameworks */,
+				E18E94C626C3712700AD4E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VOIPDemo;
+			productName = VOIPDemo;
+			productReference = E18E94C826C3712700AD4E4C /* VOIPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E18E94DD26C3712F00AD4E4C /* VOIPDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E18E94F526C3712F00AD4E4C /* Build configuration list for PBXNativeTarget "VOIPDemoTests" */;
+			buildPhases = (
+				E18E94DA26C3712F00AD4E4C /* Sources */,
+				E18E94DB26C3712F00AD4E4C /* Frameworks */,
+				E18E94DC26C3712F00AD4E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E18E94E026C3712F00AD4E4C /* PBXTargetDependency */,
+			);
+			name = VOIPDemoTests;
+			productName = VOIPDemoTests;
+			productReference = E18E94DE26C3712F00AD4E4C /* VOIPDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E18E94E826C3712F00AD4E4C /* VOIPDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E18E94F826C3712F00AD4E4C /* Build configuration list for PBXNativeTarget "VOIPDemoUITests" */;
+			buildPhases = (
+				E18E94E526C3712F00AD4E4C /* Sources */,
+				E18E94E626C3712F00AD4E4C /* Frameworks */,
+				E18E94E726C3712F00AD4E4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E18E94EB26C3712F00AD4E4C /* PBXTargetDependency */,
+			);
+			name = VOIPDemoUITests;
+			productName = VOIPDemoUITests;
+			productReference = E18E94E926C3712F00AD4E4C /* VOIPDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E18E94C026C3712700AD4E4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E18E94C726C3712700AD4E4C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E18E94DD26C3712F00AD4E4C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E18E94C726C3712700AD4E4C;
+					};
+					E18E94E826C3712F00AD4E4C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = E18E94C726C3712700AD4E4C;
+					};
+				};
+			};
+			buildConfigurationList = E18E94C326C3712700AD4E4C /* Build configuration list for PBXProject "VOIPDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E18E94BF26C3712700AD4E4C;
+			productRefGroup = E18E94C926C3712700AD4E4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E18E94C726C3712700AD4E4C /* VOIPDemo */,
+				E18E94DD26C3712F00AD4E4C /* VOIPDemoTests */,
+				E18E94E826C3712F00AD4E4C /* VOIPDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E18E94C626C3712700AD4E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18E94D826C3712F00AD4E4C /* LaunchScreen.storyboard in Resources */,
+				E18E94D526C3712F00AD4E4C /* Assets.xcassets in Resources */,
+				E18E94D326C3712700AD4E4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18E94DC26C3712F00AD4E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18E94E726C3712F00AD4E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E18E94C426C3712700AD4E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18E94D026C3712700AD4E4C /* ViewController.swift in Sources */,
+				E18E94CC26C3712700AD4E4C /* AppDelegate.swift in Sources */,
+				E18E94CE26C3712700AD4E4C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18E94DA26C3712F00AD4E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18E94E326C3712F00AD4E4C /* VOIPDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18E94E526C3712F00AD4E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18E94EE26C3712F00AD4E4C /* VOIPDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E18E94E026C3712F00AD4E4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E18E94C726C3712700AD4E4C /* VOIPDemo */;
+			targetProxy = E18E94DF26C3712F00AD4E4C /* PBXContainerItemProxy */;
+		};
+		E18E94EB26C3712F00AD4E4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E18E94C726C3712700AD4E4C /* VOIPDemo */;
+			targetProxy = E18E94EA26C3712F00AD4E4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E18E94D126C3712700AD4E4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E18E94D226C3712700AD4E4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E18E94D626C3712F00AD4E4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E18E94D726C3712F00AD4E4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E18E94F026C3712F00AD4E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E18E94F126C3712F00AD4E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E18E94F326C3712F00AD4E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AK8NYKPT7;
+				INFOPLIST_FILE = VOIPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oralingo.VOIPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E18E94F426C3712F00AD4E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AK8NYKPT7;
+				INFOPLIST_FILE = VOIPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oralingo.VOIPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E18E94F626C3712F00AD4E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AK8NYKPT7;
+				INFOPLIST_FILE = VOIPDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oralingo.VOIPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VOIPDemo.app/VOIPDemo";
+			};
+			name = Debug;
+		};
+		E18E94F726C3712F00AD4E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AK8NYKPT7;
+				INFOPLIST_FILE = VOIPDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oralingo.VOIPDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VOIPDemo.app/VOIPDemo";
+			};
+			name = Release;
+		};
+		E18E94F926C3712F00AD4E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AK8NYKPT7;
+				INFOPLIST_FILE = VOIPDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oralingo.VOIPDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VOIPDemo;
+			};
+			name = Debug;
+		};
+		E18E94FA26C3712F00AD4E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AK8NYKPT7;
+				INFOPLIST_FILE = VOIPDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oralingo.VOIPDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VOIPDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E18E94C326C3712700AD4E4C /* Build configuration list for PBXProject "VOIPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18E94F026C3712F00AD4E4C /* Debug */,
+				E18E94F126C3712F00AD4E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E18E94F226C3712F00AD4E4C /* Build configuration list for PBXNativeTarget "VOIPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18E94F326C3712F00AD4E4C /* Debug */,
+				E18E94F426C3712F00AD4E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E18E94F526C3712F00AD4E4C /* Build configuration list for PBXNativeTarget "VOIPDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18E94F626C3712F00AD4E4C /* Debug */,
+				E18E94F726C3712F00AD4E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E18E94F826C3712F00AD4E4C /* Build configuration list for PBXNativeTarget "VOIPDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18E94F926C3712F00AD4E4C /* Debug */,
+				E18E94FA26C3712F00AD4E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E18E94C026C3712700AD4E4C /* Project object */;
+}
